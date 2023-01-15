@@ -66,7 +66,7 @@
 .hero:where(.astro-DODQM2UL)
   .background-wrapper:where(.astro-DODQM2UL)
   .img:where(.astro-DODQM2UL).img-2 {
-  background-image: url("../images/img2.jfif');
+  background-image: url("../images/img2.jfif");
 }
 .hero:where(.astro-DODQM2UL)
   .background-wrapper:where(.astro-DODQM2UL)
