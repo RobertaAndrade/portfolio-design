@@ -60,22 +60,22 @@
 .hero:where(.astro-DODQM2UL)
   .background-wrapper:where(.astro-DODQM2UL)
   .img:where(.astro-DODQM2UL).img-1 {
-  background-image: url('/images/img1.jfif');
+  background-image: url('../images/img1.jfif');
 }
 .hero:where(.astro-DODQM2UL)
   .background-wrapper:where(.astro-DODQM2UL)
   .img:where(.astro-DODQM2UL).img-2 {
-  background-image: url('/images/img2.jfif');
+  background-image: url('../images/img2.jfif');
 }
 .hero:where(.astro-DODQM2UL)
   .background-wrapper:where(.astro-DODQM2UL)
   .img:where(.astro-DODQM2UL).img-3 {
-  background-image: url('/images/img3.jfif');
+  background-image: url('../images/img3.jfif');
 }
 .hero:where(.astro-DODQM2UL)
   .background-wrapper:where(.astro-DODQM2UL)
   .img:where(.astro-DODQM2UL).img-4 {
-  background-image: url('/images/img4.jfif');
+  background-image: url('../images/img4.jfif');
 }
 .hero:where(.astro-DODQM2UL) .message:where(.astro-DODQM2UL) {
   color: #fff;
@@ -253,7 +253,7 @@
   width: 100%;
   right: 0;
   height: 50px;
-  background-image: url('/images/showcase/deepeyes.jpg');
+  background-image: url('../images/showcase/deepeyes.jpg');
   background-position: center;
   background-size: cover;
   -webkit-filter: blur(5px);
