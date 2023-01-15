@@ -576,7 +576,7 @@
   background-color: #000;
   flex: 1 1 400px;
   min-height: 100vh;
-  background-image: url('/images/form/cont.jfif');
+  background-image: url('../images/form/cont.jfif');
   background-position: center;
   background-size: cover;
   position: relative;
