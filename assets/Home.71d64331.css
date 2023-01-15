@@ -122,6 +122,9 @@
   color: #fff;
 }
 @media (max-width: 600px) {
+  .hero{
+    scroll-snap-align: none;
+  }
   .hero:where(.astro-DODQM2UL) .background-wrapper:where(.astro-DODQM2UL) {
     flex-direction: column;
   }
@@ -383,6 +386,9 @@
   text-decoration: underline;
 }
 @media (max-width: 450px) {
+  .cases{
+    scroll-snap-align: none;
+  }
   .cases:where(.astro-OPBSL5YL) .container:where(.astro-OPBSL5YL) {
     background-color: #00000052;
     max-width: 100%;
@@ -549,6 +555,7 @@
 @media (max-width: 750px) {
   .form-wrapper {
     background-color: #000;
+    scroll-snap-align: none;
   }
   .form-wrapper form .title h3 {
     color: #9b1d5a;
@@ -680,13 +687,16 @@
   color: #d8d8d8;
 }
 @media (max-width: 750px) {
+  .contact{
+    scroll-snap-align: none;
+  }
   .contact:where(.astro-7SJL2WJ7) {
-    scroll-snap-align: start;
+    scroll-snap-align: none;
   }
   .contact:where(.astro-7SJL2WJ7)
     .container:where(.astro-7SJL2WJ7)
     .card:where(.astro-7SJL2WJ7) {
-    scroll-snap-align: start;
+    scroll-snap-align: none;
     width: 100vw;
     height: 100vh;
     background-size: auto;
