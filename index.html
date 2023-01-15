@@ -158,12 +158,13 @@
         const buttons = document.getElementsByClassName('button');
         const image = document.getElementById('img');
         const bgImage = document.getElementById('showcases');
-
+        const isMobile = navigator.userAgentData.mobile;
+        
         let i = 0;
         let clicked = false;
-
+        
         setInterval(() => {
-          if (clicked) return;
+          if (clicked || isMobile) return;
           const { url, title } = cases[i];
           const button = buttons[i];
 
