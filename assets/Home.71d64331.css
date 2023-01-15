@@ -394,6 +394,11 @@
   span:where(.astro-OPBSL5YL):hover {
   text-decoration: underline;
 }
+@media (max-width: 600px) {
+  .cases {
+    scroll-snap-align: none;
+  }
+}
 @media (max-width: 450px) {
   .cases {
     scroll-snap-align: none;
