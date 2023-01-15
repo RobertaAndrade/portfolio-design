@@ -140,12 +140,14 @@
   .whoami {
     scroll-snap-align: none;
   }
-  * {
-    scroll-snap-align: none !important;
-  }
 }
 .whoami:where(.astro-3CYYWJUL) {
   scroll-snap-align: start;
+}
+@media (max-width: 600px) {
+  .whoami:where(.astro-3CYYWJUL) {
+    scroll-snap-align: none;
+  }
 }
 .whoami:where(.astro-3CYYWJUL) .container:where(.astro-3CYYWJUL) {
   padding: 2rem;
@@ -747,16 +749,23 @@
   color: silver;
   font-weight: 100;
 }
-//
+
 .bar:where(.astro-WEVEDUAP) .text:where(.astro-WEVEDUAP)::selection {
   background-color: #721d46;
   color: #fff;
 }
+
 .bar:where(.astro-WEVEDUAP).has-text {
   scroll-snap-align: center;
   padding-top: 5rem;
   flex-direction: column;
   row-gap: 3rem;
+}
+
+@media (max-width: 600px) {
+  .bar:where(.astro-WEVEDUAP).has-text {
+    scroll-snap-align: none;
+  }
 }
 
 .bar:where(.astro-WEVEDUAP).has-text span:where(.astro-WEVEDUAP)::selection {
